@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:mydoctor_app/pages/home_screen.dart';
+import 'package:mydoctor_app/pages/setings_screen.dart';
 
 class NavarbarRoute extends StatefulWidget {
   const NavarbarRoute({super.key});
@@ -17,7 +18,7 @@ class _NavarbarRouteState extends State<NavarbarRoute> {
     HomeScreen(),
     Container(),
     Container(),
-    Container(),
+    SetingsScreens(),
   ];
   @override
   Widget build(BuildContext context) {
